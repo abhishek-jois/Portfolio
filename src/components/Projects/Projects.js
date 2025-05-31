@@ -41,7 +41,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="ToDoList Application using C"
-              ghLink="https://github.com/abhi29032004/ToDoList_DataStructs"         
+              ghLink="https://github.com/abhi29032004/ToDoList_DataStructers"         
             />
           </Col>
         </Row>

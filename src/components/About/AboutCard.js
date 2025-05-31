@@ -11,14 +11,14 @@ function AboutCard() {
             Hey there, I am <span className="purple">Abhishek H S </span>
             from <span className="purple"> Bangalore, India.</span>
             <br />
-            I am currently a 3rd Year Student at PES University, Bangalore pursuing B.Tech CSE with an AIML specialization.
+            I am currently a 4rd Year Student at PES University, Bangalore pursuing B.Tech CSE with an AIML specialization.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing Badminton
             </li>
             <li className="about-activity">
               <ImPointRight /> Learning and Experimenting

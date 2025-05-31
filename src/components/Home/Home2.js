@@ -19,34 +19,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I've developed a strong passion for programming and have gained a solid understanding in several areas.
+            I’m a tech enthusiast with a deep interest in solving real-world problems through intelligent systems and efficient infrastructure.
               <br />
               <br />I am proficient in languages like
               <i>
-                <b className="purple"> Python , C and JavaScript . </b>
+                <b className="purple"> Machine Learning frameworks and tools, </b>
               </i>
               <br />
               <br />
-              My key interests lie in building &nbsp;
+              I actively explore the fields of &nbsp;
               <i>
-                <b className="purple">Innovative web technologies and products </b> and
-                also in areas related to{" "}
+                <b className="purple">AI and ML  </b> by reading{" "}
                 <b className="purple">
-                exploring Machine Learning .
+                research papers and staying updated with the latest developments.
                 </b>
               </i>
               <br />
               <br />
-              I also enjoy applying my skills in<b className="purple">DevOps</b> and
+              I'm also interested in<b className="purple">DevOps</b>  and have a solid understanding of concepts like
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  automation, CI/CD, and modern infrastructure tools.
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; 
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"></b>
               </i>
             </p>
           </Col>
@@ -74,15 +73,15 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/abhishek-hs-262560288/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
+  <a
+    href="mailto:abhiaklapura@gmail.com"
+    target="_blank"
+    rel="noreferrer"
+    className="icon-colour home-social-icons"
+  >
+    <FaEnvelope />
+  </a>
+</li>
             </ul>
           </Col>
         </Row>
