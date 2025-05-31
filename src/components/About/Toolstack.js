@@ -9,10 +9,8 @@ import {
   SiPandas,
   SiNumpy,
   SiKeras,
-  SiMatplotlib,
-  SiHuggingface, // Transformer
-  SiStabilityai, // Diffusion
 } from "react-icons/si";
+import { FaRobot, FaBrain, FaChartLine } from "react-icons/fa"; // Alternative icons
 
 function Toolstack() {
   return (
@@ -23,14 +21,14 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons" title="Blender">
         <SiBlender />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title="Transformer (Hugging Face)">
-        <SiHuggingface />
+      <Col xs={4} md={2} className="tech-icons" title="Transformer (AI)">
+        <FaRobot />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" title="Diffusion (Stability AI)">
-        <SiStabilityai />
+      <Col xs={4} md={2} className="tech-icons" title="Diffusion (AI)">
+        <FaBrain />
       </Col>
       <Col xs={4} md={2} className="tech-icons" title="Matplotlib">
-        <SiMatplotlib />
+        <FaChartLine />
       </Col>
       <Col xs={4} md={2} className="tech-icons" title="NumPy">
         <SiNumpy />
