@@ -75,14 +75,16 @@ function Home2() {
               </li>
               <li className="social-icons">
   <a
-    href="mailto:abhiaklapura@gmail.com"
-    target="_blank"
-    rel="noreferrer"
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=abhiaklapura@gmail.com"
     className="icon-colour home-social-icons"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Send Email via Gmail"
   >
     <FaEnvelope />
   </a>
 </li>
+
             </ul>
           </Col>
         </Row>
