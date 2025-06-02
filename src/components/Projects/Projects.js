@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Heart from "../../Assets/Projects/Heart.png";
+import download from "../../Assets/Projects/download.jpg";
+import wine from "../../Assets/Projects/wine.jpg";
 
 function Projects() {
   return (
@@ -31,8 +34,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Wine Quality Prediction using End to End ML"
-              ghLink="https://github.com/abhi29032004/Wine-Quality-End-to-End-ML"
+              title="Pharmacy Management System"
+              ghLink="https://github.com/abhi29032004/PharmacyManagementSystem"
             />
           </Col>
 
@@ -40,10 +43,34 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="ToDoList Application using C"
-              ghLink="https://github.com/abhi29032004/ToDoList_DataStructers"         
+              title="Meta Learning"
+              ghLink="https://github.com/abhi29032004/MetaLearning"         
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Heart}
+              isBlog={false}
+              title="4D Heart Model"
+              ghLink="https://github.com/abhi29032004/4DHeart_Model"         
+            />
+          </Col> 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={download}
+              isBlog={false}
+              title="Word2Vec"
+              ghLink="https://github.com/abhi29032004/Word2vec"         
+            />
+          </Col> 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wine}
+              isBlog={false}
+              title="Wine Quality"
+              ghLink="https://github.com/abhi29032004/Wine-Quality-End-to-End-ML"         
+            />
+          </Col> 
         </Row>
       </Container>
     </Container>
