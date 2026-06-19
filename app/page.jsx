@@ -72,8 +72,8 @@ const projects = [
     icon: '🗺️',
     title: 'Traverse',
     href: 'https://github.com/abhishek-jois/Traverse',
-    desc: 'An intelligent traversal and exploration system. Built to navigate complex problem spaces using graph-based reasoning and AI-driven pathfinding techniques.',
-    tags: ['Python', 'AI', 'Graph'],
+    desc: 'Dependency graph retrieval for AI coding agents. Builds a weighted map of any codebase (nodes = file metadata, edges = import coupling) so the AI queries the map before reading any file — turning blind grep-based exploration into targeted lookup. Cut agent turns from 20 to 11 on a 1,600-file monorepo.',
+    tags: ['Python', 'NetworkX', 'MCP', 'Tree-sitter', 'Claude Code'],
   },
 ]
 
